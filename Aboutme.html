@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutme</title>
+    <link rel="stylesheet"  href="css.css">
+    
+</head>
+
+<body>
+
+
+      
+      <!-- container -->
+    <div class="container">
+    <nav class="navbar">
+        <ul>
+        <li ><a href="#"> About me</a></li>
+        <li ><a href="/Projects.html"> Project</a></li>
+        <li ><a href="/Writing.html"> Writing</a></li>
+    </ul></nav>
+    <div class="radio">
+    <img class="decor" src="/icon/ivolume.svg">
+    <img class="topvolume" src="/icon/topvolume.svg">
+    <img class="bottomvolume" src="/icon/bottomvoulume.svg">
+        <div class="infor">
+            <img src="img\hi.png">
+            <div class="hello">
+                I’m UX / UI Designer 
+                This is my portfoliio and place to share knowledge . 
+            </div>
+        </div>
+        <div class="music">
+            <div class="musictext"> Listen Radio</div>
+            <img id="icon" src="/icon/playerbutton.svg">
+          
+           
+        </div>
+        
+   <div class="social">
+            <button class="btn-cv"><a href="/file/CV-iBerD.pdf" download="CV-iBerD">Download CV</a></button>
+            <p> Connect with me</p>
+            <div class="connect">
+                <button class="mail"> <a href="Formmail.html"><img src="icon/Gmailbg.svg" ></a> </button>
+                <button class="ins"> <a href="https://www.instagram.com/sonle1551/"><img src="/icon/Instagrambg.svg" ></a> </button>
+                <button class="be"> <a href="https://www.behance.net/ngocson150501"><img src="/icon/Behancebg.svg" ></a> </button>
+            </div>
+
+            </menu>
+        </div>
+    </div>
+</div>
+<audio id="mySong">
+    <source src="/file/cover-by-lam-lam-lyrics-vietsub.mp3" type="audio/mp3">
+   </audio>
+       <!-- script -->
+<script>
+    var mySong = document.getElementById("mySong");
+    var icon =document.getElementById("icon");
+
+    icon.onclick = function() {
+        if(mySong.paused){
+                mySong.play();
+                icon.src = "/icon/pause.svg";
+        } else{
+            mySong.pause();
+            icon.src = "/icon/playerbutton.svg";
+        }
+    }
+</script>
+</body>
+</html>

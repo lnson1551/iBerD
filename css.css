@@ -1,0 +1,888 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+ 
+}
+/* Typo */
+h1{
+    font-family: 'Kylie Boga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #3C2317;
+    }
+    
+
+/* Style */
+body{
+    background-color: #F5EFE5;
+}
+
+.container {
+    display: flex;
+    width: 1312px;
+    height: 100%;
+    background-color: #F5EFE5;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+}
+.navbar{
+
+    position:fixed ;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color:transparent;
+    justify-content: center;
+    padding: 32px;
+
+  
+}
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  background-color:#22140D;
+  width: 640px;
+  height: 124px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+
+}
+.navbar ul li {
+    width: 192px;
+    display: inline;
+    margin: 32px;
+    background-color: transparent;
+    text-decoration: none;
+    justify-content: center;
+
+    
+}
+.navbar  ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    background-color: transparent;
+    color: #F9F6F0;
+    font-family: 'Kylie Boga';
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.radio{
+width: 864px;
+height:291px ;
+border: 8px solid #625954;
+border-radius: 16px;
+background: #628E90;
+position: absolute;
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+position: absolute;
+top: 120px;
+justify-content: center;
+
+}
+.radio .Infor {
+    width: 304px;
+    height: auto;
+    background-color: transparent;
+    display: inline;
+}
+.radio .music {
+    width: 192px;
+    height: auto;
+    background-color: transparent;
+    margin: 24px 32px 0;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.radio .social {
+    display: inline;
+    width: 304px;
+    height: auto;
+    background-color: transparent;
+}
+.infor{
+   margin: 32px 48px;
+  max-width: 208px;
+}
+.infor .hello{
+width: 208px;
+ background-color: transparent;
+ font-family: 'Avenir Next LT Pro';
+ font-style: normal;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 700;
+ color: #F5EFE5;
+ margin-top: 8px;
+}
+.infor img{
+ width: 208px;
+height: 120px;
+background-color: transparent;
+}
+.music .musictext{
+ width: 192px;
+height: 96px;
+font-family: 'Kylie Boga';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+background-color: transparent;
+color:#F5EFE5;
+}
+#icon{
+    cursor: pointer;
+    width: 48px;
+   
+}
+  
+
+.social{
+    width:304px;
+    height: auto;
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    margin: 76px 48px 0 48px;
+}
+.social .btn-cv{
+    width: 208px;
+    height: 48px;
+    background: #F5EFE5;
+    border-radius: 60px;
+    font-family: 'Kylie Boga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C2317;
+    border: none;
+}
+ .btn-cv a{
+    color: #3C2317; ;
+    text-decoration: none;
+    display: flex;
+    width: 208px;
+    height: 48px;
+    background: #F5EFE5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+
+}
+ .btn-cv a:hover{
+    color: #F5EFE5;
+    background-color: #3C2317;}
+
+
+.social p{
+    margin-top: 48px;
+    color: #F5EFE5;
+    width: 208px;
+    height: auto;
+    font-family: 'Avenir Next LT Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+   max-width:208px;
+}
+.social .connect{
+    width: 208px;
+    height: auto;
+ display: flex;
+flex-direction: row;
+align-items: flex-start;
+background-color: transparent;
+justify-content: space-evenly;
+}
+.connect button{
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+}
+.connect img:hover{
+    outline: 2px solid #3C2317;
+    outline-offset: -2px;
+    border-radius: 60px;
+    opacity: 90%;
+}
+.radio .decor{
+    position: absolute;
+    bottom: 0;
+}
+.radio .topvolume{
+    position: absolute;
+    top:-73px;
+}
+.radio .bottomvolume{
+    position: absolute;
+    bottom: -48px;
+}
+/* site project */
+.container-project {
+    display: flex;
+    width: 1312px;
+    height: 100%;
+    background-color: #F5EFE5;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+}
+.container-project h1{
+width: 864px;
+height: 64px;
+text-align: center;
+position: absolute;
+top: 64px;
+}
+/* card-project */
+.container-project .parent-card{
+display: flex;
+flex-direction: row;
+align-items: center;
+position: absolute;
+width: 1312px;
+height: auto;
+top: 28%;
+justify-content: space-between;
+}
+.parent-card .card-project{
+    width: 414px;
+    height: 264px; ;
+    background: #F9F6F0;
+    border: 1px solid #3C2317;
+    border-radius: 16px;
+    padding: 24px;
+}
+.parent-card img{
+display: inline;
+width: 366px;
+height: 100px;
+border: 2px solid #3C2317;
+border-radius: 12px;
+}
+.parent-card .card-header{
+    width: 366px;
+    height: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    display: flex;
+
+}
+.parent-card .card-header .card-title{
+display: inline;
+font-family: 'Kylie Boga';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #625954;
+
+}
+.parent-card .card-header img{
+    width: 24px;
+    height: 24px;
+    border: none;
+
+}
+/* hovercard */
+.parent-card .card-header img:hover{
+outline: 2px solid #3C2317;
+outline-offset: 3px;
+}
+.parent-card .card-project:hover{
+    filter: drop-shadow(0px 4px 30px rgba(60, 35, 23, 0.16));
+  
+    outline: 2px solid #3C2317;
+}
+.card-header button{
+    border: none;
+    background-color: transparent;
+}
+.card-header a{
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+.card-project p{
+ width: 366px;
+height: 60px;
+margin-top: 8px;
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #80776E;
+}
+.project-pagination{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 6%;
+    align-items: flex-end;
+}
+.project-pagination .pagination-btn{
+ display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+width: 108px;
+height: 48px;
+}
+.pagination-btn button{
+background-color: transparent;
+border: none;
+}
+.pagination-number{
+    width: 64px;
+height: 24px;
+font-family: 'Kylie Boga';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #625954;
+}
+.container-writing {
+    display: flex;
+    width: 1312px;
+    height:100% ;
+
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.container-writingcards{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+.container-writingcards h2{
+    font-family: 'Kylie Boga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #625954;
+}
+.container-writingcards p{
+    font-family: 'Avenir Next LT Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #80776E;
+}
+/* masterwriting */
+.container-masterwriting{
+    width: 1312px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 64px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 64px;
+}
+.masterwriting{
+    width: 864px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 64px;
+}
+.masterwriting h1{
+font-family: 'Kylie Boga';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 64px;
+text-align: start;
+color: #3C2317;
+
+
+}
+.description{
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #625954;
+}
+.container-writing  h1{
+    position: absolute;
+    top:64px;
+}
+.createandday{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.skillandtime{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.strokewriting{
+    width: 100%;
+    height: 4px;
+    background-color: #3C2317;
+    border-radius: 4px;
+    margin: 16px 0;
+}
+.content-writing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+.content-writing h1{
+    text-align: start;
+
+}
+.content-writing p{
+ font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #625954;
+
+}
+.content-writing h1{
+    font-family: 'Avenir Next LT Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #625954;
+   }
+   .content-writing img{
+    max-width: 100%;
+    height: auto;
+   }
+      /* Relativewriting */
+   .writing-parentcard{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-between;
+   }
+
+   .relativewriting h1{
+    font-family: 'Kylie Boga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #3C2317;
+    margin-bottom: 32px;
+   }
+   .writing-card{
+   width: 414px;
+    height: 264px;
+    box-sizing: border-box;
+    background: #F9F6F0;
+    border: 1px solid #3C2317;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+   }
+   .headerwritingcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+
+   }
+   .writing-card h2{
+    width: 334px;
+    font-family: 'Kylie Boga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C2317;
+    text-align: start;
+   }
+   .headerwritingcard button{
+    width: 24px;
+    height: 24px;
+    background-color:transparent;
+    border: none;
+    display: inline;
+   }
+   .headerwritingcard button img{
+    width: 24px;
+    height: 24px;
+    border: none;
+   }
+.writing-card img{
+    width: 100%;
+    height: 124px;
+}
+.writing-card .times{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.writing-card p{ 
+    width: 63px;
+height: 20px;
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}
+/* secon nav */
+.secondnav{
+   max-width: 1312px; 
+    display: flex;
+    position: fixed;
+   bottom: 54%;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.secondnav .back-big{
+
+    width: 116px;
+    height: 116px;
+    border: none;
+    background-color: transparent;
+  
+}
+.secondnav .sharesocial{
+    width: 48px;
+    height: 252px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sharelink{
+
+    width: 48px;
+    height:48px;
+    background-color: transparent;
+    border: none;
+}
+.sharemail{
+    width: 48px;
+    height:48px;
+    background-color: transparent;
+    border: none;
+}
+.shareinstagram{
+    width: 48px;
+    height:48px;
+    background-color: transparent;
+    border: none;
+}
+.sharebehance{
+    width: 48px;
+    height:48px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+/* projectdetail */
+.container-projectdetail{
+    width: 1312px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 64px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 64px;
+}
+.projectdetail-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.projectdetail-header h3{
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Kylie Boga';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 64px;
+color:#3C2317;
+margin-bottom: 16px;
+}
+.projectdetail-header p{
+    font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #625954;
+margin-top: 4px;
+
+}
+.descript-project {
+    max-width: 640px;
+}
+.descript-project p{ 
+width: 640px;
+height: 48px;
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #625954;
+}
+.mastercontainer-detail{
+    width: 864px;
+    height: auto;
+
+}
+.projectdetail-content-border{
+    width: 100%;
+    height: auto;
+    background-color: #628E90;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    border-radius: 16px;
+    margin: 32px 0 64px 0;
+}
+.projectdetail-content{
+    width: 100%;
+    height: 100%;
+    background-color: #746346;
+    border-radius: 16px;
+    padding: 24px;
+    }
+    .projectdetail-content img{
+        width: 100%;
+        height: 100%;
+        background-color: #F5EFE5;
+        border-radius: 16px;
+        
+ 
+        }
+.detailproject-card{
+    width:414px ;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: #F9F6F0;
+    border: 1px solid #3C2317;
+    border-radius: 16px;
+}
+.detailproject-card img{
+    width: 366px;
+    height: 100;
+}
+.detailproject-card-header{
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.detailproject-card-header h4{
+width: 344px;
+height: auto;
+ color: #3C2317;;
+ font-family: 'Kylie Boga';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+}
+.detailproject-card-header button {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-image: url(/icon/arrow-right.svg);
+    border: none;
+}
+.detailproject-card p{
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #80776E;
+margin-top: 8px;
+width: 100%;
+}
+.formmail{
+    width: 524px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+ 
+}
+.formmail form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.yourmail{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Avenir Next LT Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C2317;
+}
+.yourmail input{
+width: 100%;
+height: 48px;
+border: 1px solid #3C2317;
+border-radius: 12px;
+background: #F5EFE5;
+padding: 12px;
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #3C2317;
+}
+.yourmail ::placeholder{
+    color: #3C2317;
+}
+.yourmail input:focus{
+    border: 1px solid #3C2317;
+    border-radius: 12px;
+}
+
+.yourmessage{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Avenir Next LT Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C2317;
+}
+.yourmessage textarea{
+width: 100%;
+height: 120px;
+border: 1px solid #3C2317;
+border-radius: 12px;
+background: #F5EFE5;
+padding: 16px 12px;
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #3C2317;
+}
+.yourmessage textarea:focus{
+    border: 1px solid #3C2317;
+   border-radius: 12px;
+}
+.yourmessage textarea::placeholder{
+    color: #3C2317;
+}
+
+
+.formmail button{
+width: 100%;
+height: 48px;
+background: #3C2317;
+border-radius: 12px;
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #F5EFE5;
+}
+.formmail a{
+font-family: 'Avenir Next LT Pro';
+ font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-decoration-line: underline;
+color: #3C2317;
+text-underline-offset: 2px;
+}
